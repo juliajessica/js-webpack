@@ -29,7 +29,7 @@ _Feel free to email either or us at [juliajessicasher@gmail.com](mailto:juliajes
 ### Specs
 | Behavior | Input | Output |
 | :-------------     | :------------- | :------------- |
-| The program will take an input name and return it | Input: "Julia" | Output: "Julia" |
+| The program will take an number input and output a result | Input: "1" | Output: "1" |
 
 
 ### License

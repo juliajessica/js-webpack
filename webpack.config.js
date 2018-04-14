@@ -26,14 +26,16 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,  //ESLint should lint all JS files except for the files in our nodemodules_ directory because they are external JS libraries.
         loader: "eslint-loader"
-        // test: /\.css$/,
-        // use: [
-        //   'style-loader',
-        //   'css-loader'
-        // ]
       }
     ]
   }
